@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a{
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- Header html Start  --> */
+header{
+    background-color: #0872b9;
+    padding-top: 10px;
+}
+.header_menu ul{
+    float: right;
+}
+.header_menu ul li{
+    float: left;
+    padding: 0 25px;
+}
+.header_menu ul li a{
+    color: #e7e7e7 ;
+    font-size: 14px;
+}
+.header_menu ul li a:hover{
+    color: #353535;
+    transition: all linear .3s;
+}
+.welcome p{
+    font-size: 14px;
+    color: #e7e7e7;
+    font-family: 'Open Sans', sans-serif;    
+}
+/* <!-- Header html End  --> */
+
+/* <!-- Navigation part Start --> */
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover{
+    color: #0872b9;
+}
+
+/* <!-- Navigation part End --> */
+
+/* <!-- Banner part start --> */
+#banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_overlay{
+    padding: 88px 0;
+    background-color: rgb(0,0,0,.6);
+}
+.banner_content{
+    text-align: right;
+    color:  #e7e7e7;
+}   
+.banner_content h3{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;  
+    font-weight: 400;
+}  
+.banner_content h4{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+.banner_content p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif; 
+    padding-top: 28px;
+    padding-bottom: 32px;
+    text-align: right;
+}
+.banner_content a{
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+    padding: 9px 23px;
+    color:  #e7e7e7;
+    border: 2px solid white;
+    margin: 0 12px;
+
+}
+.banner_content a:hover{
+    color:  #e7e7e7;
+    background-color:#0872b9;
+    border: 2px solid #0872b9;
+    transition: all linear .3s;
+}
+
+/* <!-- Banner part End --> */
+
+/* About Part Start */
+.about_tag{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.about_tag a{
+    color: #353535;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+}
+.about_tag a:hover {
+    border-bottom: 2px solid #0872b9;
+}
+
+.about_image{
+   background: url(../images/Beatles1.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 382px;
+}
+.about_overlay{
+    width: 360px;
+    height: 260px;
+}
+.about_overlay img{
+   width: 100%;
+}
+.about_text{
+    padding: 22px 0;
+
+}
+.about_text p{
+    font-size: 15px;
+    padding: 22px 0;
+    font-family: 'Open Sans', sans-serif; 
+    color: #555555;
+}
+
+
+/* About Part End */
+
+/* Our Services Part Start */
+.OurServices_tag{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.OurServices_tag a{
+    color: #353535;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+}
+.OurServices_tag a:hover {
+    border-bottom: 2px solid #0872b9;
+}
+/* Our Services Part End */
+
+/* Our_Portfolio Part Start */
+.Our_Portfolio_tag{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.Our_Portfolio_tag a{
+    color: #353535;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+}
+.Our_Portfolio_tag a:hover {
+    border-bottom: 2px solid #0872b9;
+}
+
+.img1{
+  float: left;
+}
+.img2{
+    float: left;
+    padding: 0 2px;
+}
+.img3{
+    float: left;
+}
+.img4{
+    float: left;
+    
+}
+
+
+
+/* Our_Portfolio Part End */

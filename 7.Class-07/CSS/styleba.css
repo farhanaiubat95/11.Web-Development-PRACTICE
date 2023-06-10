@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ /* Banner part html Start  */
+.banner{
+    background: url(../image/p1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+    height: 700px;  
+    margin-bottom: 100px; 
+}
+.banner h3{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Instrument Serif', serif;
+    line-height: 50px;
+    padding-left: 10px ;
+    padding-top: 10px;
+    text-align: justify;
+}
+/*  Banner part html End */
+
+/* Form part html Start */
+.form_main{
+  height: 550px;
+  width: 450px;
+  background-color: gray;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: url(../image/p2.jpg);
+}
+.form_main:hover {
+    box-shadow: 10px 10px 30px rgb(165, 95, 95);
+}
+.form_main form label{
+    color: white;
+    font-size: 20px;
+}
+.form_main form input{
+    height: 40px;
+    width: 250px;
+    padding-left: 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid pink;
+    border-radius: 50px;
+    color: pink;
+    font-size: 15px;
+    font-style: oblique;
+
+}
+.form_main form input::placeholder{
+    color: pink;
+}
+.form_main form button{
+    margin-left: 60px;
+    padding: 12px 40px;   
+    border: none;
+    border-radius: 30px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+}
+.form_main form button:hover {
+    box-shadow: 10px 10px 30px black;
+    color: pink;
+    background-color: rgb(140, 87, 96);
+    transition: all linear .03s;
+}
+/* Form part html End */

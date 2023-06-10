@@ -1,0 +1,260 @@
+
+/*--------- 1st div Start----------- */
+.c1{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(52, 65, 101);
+    float: left;
+    
+  
+}
+
+.c1 p{
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;  
+}
+.flag1{
+    width: 400px;
+    height: 260px;
+    background-color: red;
+    position: absolute;
+    top: 270px;
+    left: 40px;
+}
+
+.f1{
+   
+    height: 20px;
+    background-color: red;
+}
+
+.f2{
+   
+    height: 20px;
+    background-color: white;
+}
+
+.f3{
+   
+    height: 20px;
+    background-color: red;
+}
+.f4{
+   
+    height: 20px;
+    background-color: white;
+}
+.f5{
+   
+    height: 20px;
+    background-color: red;
+}
+
+.f6{
+   
+    height: 20px;
+    background-color: white;
+}
+
+.f7{
+   
+    height: 20px;
+    background-color: red;
+}
+.f8{
+   
+    height: 20px;
+    background-color: white;
+}
+.f9{
+   
+    height: 20px;
+    background-color: red;
+}
+
+.f10{
+   
+    height: 20px;
+    background-color: white;
+}
+
+.f11{
+   
+    height: 20px;
+    background-color: red;
+}
+.f12{
+   
+    height: 20px;
+    background-color: white;
+}
+.f13{
+   
+    height: 20px;
+    background-color: red;
+}
+.imag{
+    width: 150px;
+    height: 130px;
+    background-color: rgb(33, 33, 170);
+    position: absolute;
+    
+}
+.imag img{
+    width: 150px;
+    height: 130px;
+}
+/*--------- 1st div End----------- */
+
+/*--------- 2nd div Start----------- */
+.c2{
+    width: 24%;
+    height: 300px;
+    background-color: rgb(67, 82, 83);
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+
+.c2 p{
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;  
+}
+.flag2{
+    width: 400px;
+    height: 260px;
+    background-color: red;
+    position: absolute;
+    top: 270px;
+    left: 500px;
+}
+.flag2 img{
+    width: 400px;
+    height: 260px;
+}
+
+/*--------- 2nd div End----------- */
+
+/*--------- 3rd div Start----------- */
+.c3{
+    width: 24%;
+    height:300px;  
+    background-color: rgb(93, 132, 88);
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.c3 p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;  
+ }
+ .flag3{
+     width: 400px;
+     height: 270px;
+     background-color: red;
+     position: absolute;
+     top: 270px;
+     left: 970px;
+ }
+ .a1{
+   
+    height: 90px;
+    background-color:black;
+ }
+ .a2{
+   
+    height: 90px;
+    background-color:red;
+ }
+ .a3{
+   
+    height: 90px;
+    background-color:yellow;
+ }
+/*--------- 3rd div End----------- */
+
+/*--------- 4th div Start----------- */
+.c4{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(117, 47, 84);
+    float: left;
+}
+.c4 p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;  
+ }
+ .flag4{
+     width: 396px;
+     height: 260px;
+     background-color: red;
+     position: absolute;
+     top: 270px;
+     left: 1435px;
+    
+ }
+ .b1{
+    width: 100px; 
+    height: 260px;
+    background-color: red;
+    float: left;
+
+}
+.b2{
+    width: 196px; 
+    height: 260px;
+    background-color: white;
+    float: left;
+    position: relative;
+
+}
+.b2 img{
+    width: 196px; 
+    height: 200px;
+    position: absolute;
+    top: 20px;
+}
+.b3{
+    width: 100px; 
+    height: 260px;
+    background-color: red;
+    float: left;
+}
+/*--------- 4th div End----------- */
+
+
+/*--------- 5th div Start----------- */
+
+.c5{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(38, 95, 38);
+    float: left;
+    position: absolute;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ban{
+    width: 150px;
+    height:150px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ban img{
+    width: 130px;
+    height:130px;
+}

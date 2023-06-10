@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*......... Header Decoration...... */
+.list{
+
+    background-color: rgb(214, 96, 141);  
+    text-align: center; 
+   
+}
+/* .........Stop list style by calling ul........ */
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.list ul{
+    display: inline-flex;
+}
+/* .....Fixed distance of One list to another list.... */
+.list ul li{  
+    width: 220px;
+    height: 80px;/*.....for .Drop.....*/
+    line-height: 80px;
+    position: relative; 
+}
+/* ........Font decoration by calling <a> Anchor Tag......... */
+.list ul li a{
+    color: rgb(20, 57, 57);
+    font-weight: bold;
+    font-size: 23px;
+    text-transform: uppercase;
+    display: block;
+ }
+ /* .....Now Animation Done..... */
+.list ul li a:hover{
+    background: rgb(184, 120, 177);
+    color: rgb(18, 19, 20);
+    font-size: 25px;
+    transition: all linear .3s;
+}
+
+/* ....Inside one list - Makeup..... */
+.drop{
+    /* display: none; */
+    visibility: hidden;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 1;
+    /* left: 642px; */
+}
+.list ul li:hover .drop{
+      visibility: visible;
+}
+.list ul li:hover .drop ul{
+    display: block;
+    background-color:  rgb(184, 120, 177);   
+}
+.sub_main{
+    position: relative;
+}
+.sub_menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 220px;
+}
+.sub_main:hover .sub_menu {
+   display: block;
+}
+.sub-main2{
+    position: relative;
+}
+.drop2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 220px;
+}
+
+
+/* ...New Div for big image .... */
+.cosm{
+    width: 100%;
+    height: 750px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.cosm img{
+    width: 100%;
+    height: 750px;
+    display: block;
+}
+.nam1{
+    font-size: 120px;
+    color: black;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+}
+.nam2{
+    font-size: 40px;
+    color: black;
+    z-index: 1;
+    position: absolute;
+    top: 180px;
+    left: 750px;
+    font-style: italic;
+}
+/* .....image done...... */
+
+
+/* .........ICON...... */
+.icon{
+    text-align: center;
+    background-color: rgb(203, 123, 136);
+    width: 100%;
+    position: absolute;
+    top: 900px;
+    
+    margin-top: 5px;
+
+}
+.icon ul{
+    display: inline-flex;
+}
+.icon ul li{
+    height: 80px;
+    width: 120px;
+    line-height: 80px;
+}
+.icon ul li a{
+    font-size: 23px;
+}
+.icon ul li:first-child a{
+    color: #3b5998;
+}
+.icon ul li:nth-child(2) a{
+    color: #b90101;
+}
+.icon ul li:nth-child(3)a{
+    color: #9b0573;
+}
+.icon ul li:nth-child(4)a{
+    color: #102d6d;
+}
+.icon ul li:nth-child(5) a{
+    color: #162340;
+}
+.icon ul li:last-child a{
+    color: #6a2954;
+}
+.icon ul li a img{
+    width: 24px;
+    display: block;
+    margin-top: 25px;
+}

@@ -1,0 +1,266 @@
+/* Nav part start */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin-top: 40px;
+}
+.navbar-brand img{
+    width: 50px;
+}
+nav:hover{
+    box-shadow: 10px 10px 30px rgb(35, 1, 168); 
+}
+#navbarScroll ul{
+    margin-left: 50px;
+}
+#navbarScroll ul li{
+    padding: 0 20px;
+    display: inline-block;
+}
+#navbarScroll ul li a{
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: bold;
+}
+#navbarScroll ul li a:hover{
+    color:aliceblue;
+    font-size: 15px;
+    background-color: rgb(74, 19, 87);
+}
+.row{
+    margin-top: 40px;
+}
+.content{
+   width: 30%;
+   display: block;
+}
+.content img{
+    display: block;
+}
+.content img:hover{
+    box-shadow: 10px 10px 30px rgb(64, 45, 170); 
+    border-radius: 50%;
+}
+.content1{
+    width: 70%;
+    float: left;
+}
+
+/* Nav Part done */
+
+/* Banner part Start */
+.banner{
+    background: url(../image/p1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    height: 700px;
+}
+.banner_overlay{
+    height: 700px;
+    background-color: rgb(0,0,0,.6);
+}
+.banner_img{
+    width: 40%;
+    float: right;
+    padding-top: 50px;
+}
+.banner_img img{
+    width: 600px;
+    height: 580px;
+    float: right;
+    border-radius: 50%;
+    border: 2px solid #0f0728;
+}
+.banner_img:hover img{
+    box-shadow: 10px 10px 30px rgb(27, 84, 175),-10px -10px 30px rgb(194, 32, 177) ; 
+    transition: all linear .03s;
+}
+
+
+.banner_text{
+    width: 55%;
+    float: left; 
+    padding-top: 150px;
+    padding-left: 15px;
+    padding-right: 40px;
+    margin-right: 5px;
+}
+.banner_text h1{
+    color: aliceblue;
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner_text h1:hover{
+    color: rgb(189, 20, 166);
+}
+.banner_text h4{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-right: 25px;
+}
+.banner_text h4:hover{
+    color: rgb(161, 22, 143);
+}
+.banner_text a{
+    display: inline-block;
+    padding: 18px 25px;
+    color: white;
+    font-size: 16px;
+    line-height: 1;
+    background-color: #4289ff ;
+    border-radius: 10px; 
+    transition: all linear .3s; 
+}
+.banner_text a:hover{
+    color:aliceblue;
+   background-color: rgb(73, 169, 41);
+   transition: all linear .3s;
+}
+.banner1{
+    background: url(../image/p3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    height: 700px;
+}
+.banner_text1{
+    width: 60%;
+    float: left; 
+    padding-top: 230px;
+    padding-left: 50px;
+}
+.banner_text1 h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner_text1 h1:hover{
+    color: rgb(189, 20, 166);
+}
+.banner_text1 h4{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-right: 25px;
+}
+.banner_text1 h4:hover{
+    color: rgb(161, 22, 143);
+}
+.banner2{
+    background: url(../image/p1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    height: 700px;
+}
+.banner_img2{
+    width: 40%;
+    float: right;
+    padding-top: 50px;
+}
+.banner_img2 img{
+    width: 500px;
+    height: 580px;
+    float: right;
+    border-radius: 50%;  
+}
+.banner_img2:hover img{
+    box-shadow: 10px 10px 30px rgb(27, 84, 175),-10px -10px 30px rgb(194, 32, 177) ; 
+    transition: all linear .03s;
+}
+/* Banner Part Done */
+
+/* <!--  Information Part Start--> */
+.app_box1{
+    height: 80px;
+  }
+  .app1{
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: white;
+    background-color: rgb(27, 20, 120);
+    padding: 20px 20px;
+ }
+ 
+ .app2{
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: white;
+    background-color: rgb(27, 20, 120);
+    padding: 20px 20px;
+ }
+ .app3{
+     width: 25%;
+     float: left;
+     text-align: center;
+     color: white;
+    background-color: rgb(27, 20, 120);  
+    padding: 20px 20px;
+  }
+  .app4{
+     width: 25%;
+     float: left;
+     text-align: center;
+     color: white;
+    background-color: rgb(27, 20, 120);
+    padding: 20px 20px;
+  }
+  .app_box1:hover{
+     box-shadow: 10px 10px 30px rgb(57, 11, 143),-10px -10px 30px rgb(110, 16, 100) ; 
+     transition: all linear .03s;
+  }
+  .app_box1:hover .app1{
+     color: rgb(206, 207, 220);
+    background-color: rgb(44, 6, 52); 
+  }
+  .app_box1:hover .app2 {
+     color: rgb(206, 207, 220);
+    background-color: rgb(44, 6, 52); 
+  }
+  .app_box1:hover .app3 {
+     color: rgb(206, 207, 220);
+    background-color: rgb(44, 6, 52); 
+  }
+  .app_box1:hover .app4{
+     color: rgb(206, 207, 220);
+    background-color: rgb(44, 6, 52); 
+  }
+
+  footer{
+    background-color: rgb(110, 13, 109);
+    margin-top: 30px;
+    height: 40px;
+    text-align: center;
+    color: aliceblue;
+    line-height: 40px;
+}
+.footer_text p{
+   font-size: 25px;
+   padding: 50px 50px;
+}
+ 
+  /* <!--  Information Part END--> */

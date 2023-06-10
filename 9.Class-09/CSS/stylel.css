@@ -1,0 +1,195 @@
+*{
+    padding: 0 ;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* -----------Nav CSS Start------------- */
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.logo{
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+}
+.logo a img{
+    width: 100%;
+    border-radius: 50%;
+}
+img{
+    height: 30px;
+}
+.logo a{
+    display: inline-block;
+}
+.logo a h4{
+    color: white;
+    font-size: 30px;
+    font-family: 'Poltawski Nowy', serif;
+
+}
+.menu{
+    width: 60%;
+    margin-top: 50px;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 20px 20px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+    color: rgb(55, 118, 190);
+    font-size: 25px;
+    transition: all linear .3s;
+}
+.clear{
+    clear: both;
+}
+
+/* -----------Nav CSS End------------- */
+
+/* -----------Banner CSS Start------------- */
+.banner_body{
+    width: 100%;
+}
+.banner{
+    background: url(../image/p1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    height: 700px;
+}
+.banner_overlay{
+    height: 700px;
+    background-color: rgb(0,0,0,.6);
+}
+.banner_img{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+}
+.banner_img img{
+    width: 629px;
+    height: 580px;
+    float: right;
+}
+.banner_img:hover img{
+    box-shadow: 10px 10px 30px rgb(27, 84, 175),-10px -10px 30px rgb(194, 32, 177) ; 
+    transition: all linear .03s;
+}
+
+
+.banner_text{
+    width: 50%;
+    float: left; 
+    padding-top: 230px;
+}
+.banner_text h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner_text h1:hover{
+    color: rgb(189, 20, 166);
+}
+.banner_text h4{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-right: 25px;
+}
+.banner_text h4:hover{
+    color: rgb(161, 22, 143);
+}
+/* -----------Banner CSS END------------- */
+
+/* <!-- App css Start --> */
+.app_box1{
+  height: 80px;
+}
+.app1{
+   width: 22.5%;
+   float: left;
+   text-align: center;
+   color: white;
+   background-color: rgb(27, 20, 120);
+   padding: 20px 20px;
+}
+
+.app2{
+   width: 22%;
+   float: left;
+   text-align: center;
+   color: white;
+   background-color: rgb(27, 20, 120);
+   padding: 20px 20px;
+}
+.app3{
+    width: 22%;
+    float: left;
+    text-align: center;
+    color: white;
+   background-color: rgb(27, 20, 120);  
+   padding: 20px 20px;
+ }
+ .app4{
+    width: 22.7%;
+    float: left;
+    text-align: center;
+    color: white;
+   background-color: rgb(27, 20, 120);
+   padding: 20px 20px;
+ }
+ .app_box1:hover{
+    box-shadow: 10px 10px 30px rgb(57, 11, 143),-10px -10px 30px rgb(110, 16, 100) ; 
+    transition: all linear .03s;
+ }
+ .app_box1:hover .app1{
+    color: rgb(206, 207, 220);
+   background-color: rgb(44, 6, 52); 
+ }
+ .app_box1:hover .app2 {
+    color: rgb(206, 207, 220);
+   background-color: rgb(44, 6, 52); 
+ }
+ .app_box1:hover .app3 {
+    color: rgb(206, 207, 220);
+   background-color: rgb(44, 6, 52); 
+ }
+ .app_box1:hover .app4{
+    color: rgb(206, 207, 220);
+   background-color: rgb(44, 6, 52); 
+ }
+
+footer{
+    background-color: rgb(110, 13, 109);
+    margin-top: 30px;
+    height: 40px;
+    text-align: center;
+    color: aliceblue;
+    line-height: 40px;
+}
+.footer_text p{
+   font-size: 25px;
+   padding: 50px 50px;
+}
+/* <!-- App css End --> */

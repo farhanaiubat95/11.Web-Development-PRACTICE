@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap project//Class-10</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color:  #0f0728;">
+    <!-- NAVBAR START-->
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg bg- #0f0728;">
+            <div class="content"> <!--IMAGE side-->
+              <a class="navbar-brand" href="#">
+                <img src="image/logon.png" alt="">
+              </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+             </button>
+            </div>
+          <div class="content1"> <!--LINK side-->
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">APP</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">COURSES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">HIRE FROM US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT US</a>
+                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT US</a>
+                </li>
+                <li class="nav-item dropdown" data-bs-theme="dark">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    CAREER
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Full Stack</a></li>
+                    <li><a class="dropdown-item" href="#">Front end</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Back end</a></li>
+                  </ul>
+                </li>
+              </ul>
+             </div>
+            </div>                    
+          </nav>  
+        </div>
+      </div>
+    <!-- NAVBAR DONE -->
+
+    <!-- Banner start -->
+    <div class="container">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner"> <!--Banner 1-->
+              <div class="banner_overlay">
+               <div class="container">
+                   <div class="banner_text">
+                       <h1>Learn Web <br> Development to <br>Get a Job</h1>
+                       <h4>
+                           <p>Learn modern Web Development fundamentals
+                              as well as advanced topics. Start today.
+                              Develop professional skills that position
+                              you at the top of the candidate list.
+                           </p>
+                       </h4>
+                        <br><br>
+                        <a href="#"> Explore more</a>
+                
+                   </div>
+                   <div class="banner_img"><img src="image/p2.jpg" alt=""></div>
+               </div>
+              </div>
+             <div class="clear"></div>
+            </div>
+          </div>
+          <div class="carousel-item"> <!--Banner 2-->
+            <div class="banner1">
+              <div class="banner_overlay">
+               <div class="container">
+                   <div class="banner_text1">
+                       <h1>Programming Just<br> Got Fun</h1>
+                       <h4>
+                           <p>Personalized, fun, and interactive learning process.
+                            Enjoy our gamified courses to master python, mobile app
+                            development, cyber security, C programming, C++, and many more.
+                           </p>
+                       </h4>
+                   </div>
+               </div>
+              </div>
+             <div class="clear"></div>
+            </div>
+          </div>
+          <div class="carousel-item"> <!--Banner 3-->
+            <div class="banner2">
+              <div class="banner_overlay">
+               <div class="container">
+                   <div class="banner_text">
+                       <h1>Employer:Find the<br> perfect match for your team</h1>
+                       <h4>
+                           <p>
+                            Need a smart Developer? Hire extremely hardworking,
+                            quick learners and ready to contribute. We trained
+                            them months after months to build the growth and learning mindset in them.
+                           </p>
+                       </h4>
+                   </div>
+                   <div class="banner_img2"><img src="image/p5.png" alt=""></div>
+               </div>
+              </div>
+             <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>  
+    <!-- Banner End -->
+    <!--  Information Part Start -->
+    <div id="app">
+      <div class="container">
+        <div class="app_box1">
+          <div class="app1">
+              <a href="#"><i class="fa-solid fa-house" style="color: #a932a5;"></i></a>
+               <h4>Gaming App</h4>
+          </div>
+          <div class="app2">
+              <a href="#"><i class="fa-brands fa-searchengin" style="color: #b521a9;"></i></a>
+              <h4>Browser</h4>
+          </div>
+          <div class="app3">
+              <a href="#"><i class="fa-solid fa-mobile-retro" style="color: #d936b5;"></i></a>
+              <h4>Mobile App</h4>
+          </div>
+          <div class="app4">
+              <a href="#"><i class="fa-solid fa-building" style="color: #ad2fb6;"></i></a>
+              <h4>PC Develop</h4>
+          </div>
+       </div>
+     </div> 
+    </div>
+    <!--  Information Part END-->
+    <footer>
+      <div class="container">
+          <div class="foot_text">
+              <p>-@ COPY RIGHT-</p>
+          </div>
+      </div>
+  </footer>
+    <!-- JS html start -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
